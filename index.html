@@ -1,0 +1,93 @@
+<!--Todo esto es sólo la configuración para el navegador-->
+<!DOCTYPE html>
+<html lang="en">
+<!-- Aqui en head se vincula el estilo de la pagina hacia un css  -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- aquí se coloca la etiqueta -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Aquí ponemos el código que nos da google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
+    <title>BIGBANG</title>
+</head>
+<!--Esto es lo que se vaa presentar ya en el sitio-->
+
+<body>
+    <!-- nav es un menú de navegación -->
+    <nav>
+        <!-- Para que en un ancla "a" pueda dirigirnos a una parte del sitio, es importante poner en la etiqueta de apertura de la parte del sitio que se quiera poner un "id" y ortogarle un nombre y en el ancla ponerle el nombre del id con un # adelante del nombre-->
+        <a href="#introduccion">Conócelos</a>
+        <a href="#canciones">Top Canciones</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#redes">Redes</a>
+    </nav>
+    <!--Este es el titulo "h1"-->
+    <h1>BIGBANG</h1>
+    <!---Los subtitulos van siendo más pequeños conforme van creciendo las h, van de h1 a h6-->
+    <h2 id="introduccion">Kings of Kpop</h2>
+    <!-- Este p es para que los parrrafos se lean de manera independiente y no  se junten tods como si fuera un punto y seguido-->
+    <p>
+        El 19 de Agosto de 2006 debutaron con la canción "La la la", durante toda su carrera han sido pioneros en
+        diferentes áreas, por ejemplo, ellos tuvieron el primer diseño original de lightstick con su BangBong, también
+        fue el primer grupo de Kpop que ganó un premio en unas premiaciones de talla internacional, fueron los primeros
+        en sacar el concepto de mini album, el primer grupo en el que sus miembros participaban activamente en la
+        composición de sus canciones.
+    </p>
+    <p>
+        A lo largo de su historia
+    </p>
+    <div class="imagenes">
+        <!--esto es para poner una imagen en src se tiene que poner la ruta de imagen y en alt se pone la descripción de la imagen-->
+        <!-- La ruta de la imagen pueden ser dos, desde la web-->
+        <!-- podemos ponerle identificador (class) a las imágenes para editarlas por separado -->
+        <img class="foto_portada"
+            src="https://larepublica.cronosmedia.glr.pe/original/2022/02/07/62013e1b0de24b35ca157da3.jpg"
+            alt="Foto de grupo surcoreano BIGBANG el cual tiene cuatro integrantes">
+        <!-- o colocar una imagen desde el pc con la imagen en la misma carpeta-->
+        <img class="foto_continued" src="imagen2.jpg"
+            alt="imagen del grupo BIGBANG en una pantalla de concierto con la leyenda to be continued">
+    </div>
+    <!-- lista ordenada ol-->
+    <h2 id="canciones">top 10 canciones</h2>
+    <ol>
+        <!-- li significa lista item -->
+        <li>Haru Haru</li>
+        <li>Lies</li>
+        <li>Café</li>
+        <li>Still Life</li>
+        <li>Last Dance</li>
+        <li>Let's not fall in love</li>
+        <!-- La lista ordenada enumera los items de manera automática -->
+    </ol>
+
+    <div class="curiosidad">
+        <!-- Lista desordenada ul-->
+        <h2 id="curiosidades">Datos curiosos</h2>
+        <ul>
+            <li>Escribieron la canción Still Life para sus fans con la idea de que fuera lanzada cuando la mayoría de
+                ellos
+                estuvieran en su servicio militar</li>
+            <li>Fueron bastante criticados a la hora de debutar porque ellos no cumplian con los estereotipos que
+                estaban
+                impuestos para los grupos de Kpop en ese entonces</li>
+            <li>No se acuerdan de ninguna de sus coreografías completas</li>
+            <li>Tienen de las pocas rap lines que son respetadas dentro de la comunidad Khiphop</li>
+        </ul>
+    </div>
+    <h2 id="redes">Visita sus canales</h2>
+    <ul>
+        <li><!-- El default te saca de tu sitio para ir a ese sitio web-->
+            <a href="https://open.spotify.com/intl-es/artist/4Kxlr1PRlDKEB0ekOCyHgX">Spotify</a>
+        </li>
+        <li><!-- pero para que no nos saque de nuestro sitio web debe tener el target blank -->
+            <a href="https://www.youtube.com/channel/UCzw-C7fNfs018R1FzIKnlaA" target="_blank">YouTube</a>
+        </li>
+    </ul>
+    <!-- Para referenciar páginas dentro de la misma pagina web, tenemos que crear otro html con cualquier otro nombre y referenciarla como link -->
+    <a href="galeria.html">Más imágenes</a>
+</body>
+
+</html>

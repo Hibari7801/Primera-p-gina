@@ -1,0 +1,45 @@
+body{
+    /* La propiedad debe tener esta estructura: "propiedad: cambio;"*/
+    background-color:#331b3b;
+    /*Para poner un degradado o algo parecido está esta página: https://cssgradient.io por ejemplo:*/
+    /* background: rgb(13,0,36); 
+    background: linear-gradient(90deg, rgba(13,0,36,1) 0%, rgba(65,9,121,0.6166841736694677) 35%, rgba(72,0,255,1) 100%);*/
+
+    /* tipo de letra (El que nos da la página de google font) y tamaño */
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 25px;
+}
+/* Para las imagenes es recomendable sólo editar o el ancho o el alto, para que no se distorsione el img edita todas las imágenes*/
+/* img{
+    alto
+    height: 100px;
+
+    ancho
+    width: 250px; 
+
+    redondear bordes
+    border-radius: 20px;
+} */
+
+/* Para las clases siempre se inicia con un punto "." y se edita todo lo que tenga etiqueta de esta clase */
+.foto_portada{
+    height: 200px;
+    opacity: 0.35;
+}
+.foto_continued{
+    width: 300px;
+    border-radius: 25px;
+    border: dashed;
+}
+.curiosidad{
+    background-image: url("https://bloganchoi.com/wp-content/uploads/2018/02/vip.jpg");
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+h2{
+    text-align: center;
+}
+.imagenes{
+    text-align: center;
+}
